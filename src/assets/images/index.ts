@@ -1,0 +1,10 @@
+export { default as ScoreBackgroundDark } from "./bg-score-dark.png";
+export { default as ScoreBackgroundLight } from "./bg-score-light.png";
+export { default as CandyIcon } from "./candy.png";
+export { default as FrankensteinIcon } from "./frank.png";
+export { default as MoonIcon } from "./moon-icon.svg?react";
+export { default as PumpkinIcon } from "./pumpkin.png";
+export { default as SkullIcon } from "./skull.png";
+export { default as SunIcon } from "./sun-icon.svg?react";
+export { default as VampireIcon } from "./vamp.png";
+export { default as ZombieIcon } from "./zombie.png";
