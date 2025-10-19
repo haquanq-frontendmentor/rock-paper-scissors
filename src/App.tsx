@@ -1,3 +1,4 @@
+import { Game } from "./components/Game/Game";
 import { Header } from "./components/Header";
 
 export const App = () => {
@@ -5,6 +6,9 @@ export const App = () => {
     <div className="relative min-h-screen overflow-hidden bg-gray-50 dark:bg-(image:--gradient-background)">
       <div className="mx-auto w-[min(100vw-3rem,46.25rem)]">
         <Header />
+        <main>
+          <Game />
+        </main>
       </div>
     </div>
   );
