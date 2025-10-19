@@ -81,6 +81,7 @@ export const GameRulesModal = ({ trigger }: GameRulesModalProps) => {
           className="mt-12 w-24 border-gray-800 text-gray-800 focus-visible:outline-gray-800 dark:border-gray-800 dark:text-gray-800"
           onClick={handleCloseClick}
           onKeyDown={handleCloseButtonKeydown}
+          type="button"
         >
           Close
         </Button>

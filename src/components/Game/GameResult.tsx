@@ -37,7 +37,7 @@ export const GameResult = () => {
 
       <div className="flex flex-col items-center gap-4">
         <p className="pb text-5xl">{gameStore.result}</p>
-        <Button variant="solid" onClick={handlePlayAgainClick}>
+        <Button variant="solid" onClick={handlePlayAgainClick} type="button">
           Play again
         </Button>
       </div>

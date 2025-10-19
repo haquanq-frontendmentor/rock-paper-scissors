@@ -8,7 +8,7 @@ export const GameRules = () => {
 
   return (
     <div className="pt-4">
-      <Button variant="outlined" className="w-28" ref={rulesButtonRef}>
+      <Button variant="outlined" className="w-28" ref={rulesButtonRef} type="button">
         Rules
       </Button>
       {createPortal(<GameRulesModal trigger={rulesButtonRef} />, document.body)}
